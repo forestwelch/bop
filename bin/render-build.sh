@@ -2,6 +2,6 @@
 set -o errexit
 
 bundle install
-yarn install
+npm ci
 bundle exec rails assets:precompile
 bundle exec rails db:migrate
