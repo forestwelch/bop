@@ -8,6 +8,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'coffee-rails', '~> 5.0'
 gem 'jbuilder', '~> 2.10'
 gem 'jquery-rails', '~> 4.4'
+gem 'jquery-ui-rails'
 gem 'nokogiri', '>= 1.11.1'
 gem 'pg', '>= 1.1', '< 2.0'
 gem 'puma', '>= 6.0'
@@ -26,7 +27,6 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 3.35'
-  gem 'jquery-ui-rails'
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'rubocop', require: false

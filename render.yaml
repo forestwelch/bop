@@ -16,6 +16,8 @@ services:
         value: enabled
       - key: WEB_CONCURRENCY
         value: 2
+      - key: EXECJS_RUNTIME
+        value: Node
       - key: SECRET_KEY_BASE
         generateValue: true
       - key: DATABASE_URL
