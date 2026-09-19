@@ -14,8 +14,7 @@ gem 'pg', '>= 1.1', '< 2.0'
 gem 'puma', '>= 6.0'
 gem 'rails', '~> 7.0'
 gem 'sassc-rails', '>= 2.0.0'
-gem 'uglifier', '>= 4.2.0'
-gem 'webpacker', '~> 5.0'
+gem 'terser'
 
 group :production do
   gem 'rails_12factor'

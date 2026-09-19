@@ -238,8 +238,6 @@ GEM
     rack (3.0.11)
     rack-livereload (0.6.0)
       rack (~> 3.0.8)
-    rack-proxy (0.7.7)
-      rack
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -349,7 +347,6 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    semantic_range (3.0.0)
     shellany (0.0.1)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
@@ -360,24 +357,19 @@ GEM
       sprockets (>= 3.0.0)
     stringio (3.1.1)
     strscan (3.1.0)
+    terser (1.2.8)
+      execjs (>= 0.3.0, < 3)
     thor (1.3.1)
     tilt (2.4.0)
     timeout (0.4.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webpacker (5.4.4)
-      activesupport (>= 5.2)
-      rack-proxy (>= 0.6.1)
-      railties (>= 5.2)
-      semantic_range (>= 2.3.0)
     webrick (1.8.1)
     websocket (1.2.10)
     websocket-driver (0.7.6)
@@ -395,6 +387,7 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin-23
+  arm64-darwin-25
   x86-linux
   x86-linux-gnu
   x86-linux-musl
@@ -431,10 +424,9 @@ DEPENDENCIES
   rubocop-rails
   sassc-rails (>= 2.0.0)
   selenium-webdriver
+  terser
   tzinfo-data
-  uglifier (>= 4.2.0)
   web-console (>= 4.0.1)
-  webpacker (~> 5.0)
 
 RUBY VERSION
    ruby 3.2.0p0

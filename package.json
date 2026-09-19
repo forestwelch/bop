@@ -2,9 +2,9 @@
   "name": "bop",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.24.7",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@rails/webpacker": "5.4.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.2.2",
     "font-awesome": "^4.7.0",
@@ -18,7 +18,7 @@
     "redux-thunk": "^2.4.2",
     "reselect": "^4.1.6",
     "u": "^0.1.0",
-    "webpack": "^5.74.0"
+    "webpack": "5.74.0"
   },
   "engines": {
     "node": "18.x",
